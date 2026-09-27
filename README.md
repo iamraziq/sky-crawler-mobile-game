@@ -16,14 +16,22 @@ Sky Crawler is a one-tap endless runner built in Unity: swing between skyscraper
 
 ## Controls
 
-Tap/click anywhere to web-zip. On the main menu, the arrow buttons (or ←/→) change hero. Space also zips; Esc or P pauses (Esc doubles as the Android back button).
+Tap/click anywhere to web-zip. On the main menu, the arrow buttons (or ←/→) change hero. Space, ↑ or Enter also zip; Esc or P pauses (Esc doubles as the Android back button).
 
 ## Getting started
 
-1. **Unity version:** 2021.3 LTS or newer (Unity 6 works). 2D Built-in Render Pipeline or URP 2D both work.
+1. **Unity version:** this project is set up with **Unity 6000.5.2f1** (URP 2D, Input System). The `Assets/Skythread` folder on its own also works in any Unity 2021.3 LTS+ 2D project, Built-in or URP.
 2. **Open the project** in Unity Hub, or import `Assets/Skythread` into an existing 2D project.
 3. **Build the scene:** menu **Tools → Skythread → Build Scene**. This sets sprite import settings, builds the art library, camera, game object and every UI screen, saves the scene, adds it to Build Settings, and sets portrait orientation.
-4. **Play:** set the Game view to a portrait size (e.g. 1080×2160) and press Play.
+4. **Play:** open `Assets/Skythread/Scenes/Skythread.unity`, set the Game view to a portrait size (e.g. 1080×2160) and press Play.
+
+## Building for Android
+
+1. Install the **Android Build Support** module (with SDK/NDK and OpenJDK) for your Unity version in Unity Hub.
+2. **File → Build Profiles** → select **Android** → **Switch Platform**.
+3. Make sure `Skythread.unity` is in the scene list, then **Build** (APK) or **Build And Run** with a device connected.
+
+Current player settings: package `com.RaazStudios.SkyCrawler`, version `1.0` (build code 3), minimum Android 8.0 (API 26), portrait only.
 
 ## Project structure
 
@@ -55,8 +63,10 @@ Coordinates are in logical pixels (390 wide, y pointing down); `P(x, y)` convert
 - [x] Core gameplay, menus, and save data
 - [x] Audio (music + SFX hooks across jump, pickups, death, countdown, pause, UI clicks)
 - [x] Exit-to-desktop button
-- [ ] _add anything else you're working on_
 
 ## License
 
-_Add a license here before making the repo public if you haven't already (e.g. MIT, or "All rights reserved" if you don't want reuse)._
+Code and original assets are released under the [MIT License](LICENSE).
+
+Third-party assets keep their own licenses:
+- **Fonts:** Russo One and JetBrains Mono, under the SIL Open Font License 1.1 (see `Assets/Skythread/Fonts/OFL-*.txt`).
