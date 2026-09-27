@@ -56,3 +56,13 @@ crashlytics-build.properties
 # ===== OS files =====
 .DS_Store
 Thumbs.db
+
+# ===== Android native build cache =====
+.utmp/
+
+# ===== IDE solution files =====
+*.slnx
+
+# ===== Private assets (kept locally, not published) =====
+/Assets/Skythread/Sprites/Updated Sprites/
+/Assets/Skythread/Sprites/Updated Sprites.meta
