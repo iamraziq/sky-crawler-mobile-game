@@ -1,0 +1,23 @@
+# ninja log v5
+19	6528	8121072539936660	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	1527ebac089c637b
+181	1342	8121072487885684	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	95b0f1c299e5c1c9
+1345	2112	8121072495049491	D:/Raziq/Unity/Sky Crawler/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/704h6z1j/obj/arm64-v8a/libswappywrapper.so	237ebf4cf8f62601
+78	5257	8121072526134130	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	8fcc3f75b279aedb
+99	5284	8121072526469960	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	7d7609eaac9a749f
+125	5980	8121072534508107	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	4cc5fa398298b77c
+34	5295	8121072527130407	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	eae840e14d3c2084
+1	5539	8121072530046970	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	15dc4e37127f92bc
+153	5446	8121072529036480	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	2e78fb5c036a4597
+54	6206	8121072536770140	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	8bcf25ab4d8c55d1
+6529	6788	8121072542626776	D:/Raziq/Unity/Sky Crawler/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/704h6z1j/obj/arm64-v8a/libgame.so	b891474b0bc04656
+137	844	8122083358104328	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	95b0f1c299e5c1c9
+845	1430	8122083363544941	D:/Raziq/Unity/Sky Crawler/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/704h6z1j/obj/arm64-v8a/libswappywrapper.so	237ebf4cf8f62601
+30	3276	8122083382230695	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	8fcc3f75b279aedb
+101	3280	8122083382205435	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	7d7609eaac9a749f
+53	3341	8122083382965578	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	eae840e14d3c2084
+70	3373	8122083383294386	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	2e78fb5c036a4597
+10	3478	8122083384371601	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	15dc4e37127f92bc
+85	3884	8122083388467818	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	8bcf25ab4d8c55d1
+118	3944	8122083389095495	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	4cc5fa398298b77c
+20	4074	8122083390327498	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	1527ebac089c637b
+4075	4351	8122083393167299	D:/Raziq/Unity/Sky Crawler/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/704h6z1j/obj/arm64-v8a/libgame.so	b891474b0bc04656

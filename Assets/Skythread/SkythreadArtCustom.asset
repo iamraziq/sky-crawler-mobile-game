@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db18a691a7295340575939860aae8846, type: 3}
+  m_Name: SkythreadArtCustom
+  m_EditorClassIdentifier: Assembly-CSharp::Skythread.SkythreadArt
+  heroes:
+  - id: skythread
+    name: Spidysling
+    tagline: The OG web-zipper
+    main: {r: 0.9098039, g: 0.15686275, b: 0.23529412, a: 1}
+    wall: {fileID: 21300000, guid: 86d84871d3a9a9349bebffc1caab3a65, type: 3}
+    air: {fileID: 21300000, guid: 5ae38c408e1bd284b95e9d38c9c7a46a, type: 3}
+  - id: nightwire
+    name: Nightwire
+    tagline: Sees in the dark
+    main: {r: 0.60784316, g: 0.41960785, b: 1, a: 1}
+    wall: {fileID: 21300000, guid: 92827c6869f66fe41b67e320b144d794, type: 3}
+    air: {fileID: 21300000, guid: 1726cb626bbee284fbaee51f4cd8087e, type: 3}
+  - id: solaris
+    name: Solaris
+    tagline: Sunrise on the skyline
+    main: {r: 1, g: 0.6901961, b: 0.1254902, a: 1}
+    wall: {fileID: 21300000, guid: 8edd45caa59cc4c4495f58775dbff7f0, type: 3}
+    air: {fileID: 21300000, guid: 34a04221fd5dcb4428a8baf41ae59735, type: 3}
+  - id: frostbite
+    name: Frostbite
+    tagline: Cool under pressure
+    main: {r: 0.7490196, g: 0.9137255, b: 1, a: 1}
+    wall: {fileID: 21300000, guid: 477e633eeff9f4142a10736d2efea63e, type: 3}
+    air: {fileID: 21300000, guid: 41262df8221b7d945a36899d62a322f8, type: 3}
+  - id: mantis
+    name: Mantis
+    tagline: Strikes from the shadows
+    main: {r: 0.20392157, g: 0.76862746, b: 0.43137255, a: 1}
+    wall: {fileID: 21300000, guid: b0396de45323c4845b523d3bea7f7937, type: 3}
+    air: {fileID: 21300000, guid: b715a41416e01c043a38622941d2a1eb, type: 3}
+  - id: ember
+    name: Ember Kid
+    tagline: Keeps the city warm
+    main: {r: 1, g: 0.41568628, b: 0.16862746, a: 1}
+    wall: {fileID: 21300000, guid: 3c73b328061a1454591b1778a61ebe1a, type: 3}
+    air: {fileID: 21300000, guid: 80522fbc0c5c72e48aacce253d91d748, type: 3}
+  webSplat: {fileID: 21300000, guid: 4e1ceb2834fb456a819c222e838daaa2, type: 3}
+  rig: {fileID: 21300000, guid: a865b550328702db44d9fe02d314fb0c, type: 3}
+  signBracket: {fileID: 21300000, guid: c1613064eef462d40808b993a8cc1bcf, type: 3}
+  signs:
+  - {fileID: 21300000, guid: ec17595970103eb729ff58908ee3d1d7, type: 3}
+  - {fileID: 21300000, guid: 0aacb6f775bc89641bfcf9c1ae274c3c, type: 3}
+  - {fileID: 21300000, guid: ec0701453ff42a9af8575e066488fba5, type: 3}
+  - {fileID: 21300000, guid: b736d0deb4ff5aecec1e0948067756b6, type: 3}
+  laserEmitter: {fileID: 21300000, guid: a2d9afbec582aedcb4baa397a08fc25a, type: 3}
+  laserBeam: {fileID: 21300000, guid: aedf66275fa0dc46b86135ac99a3ceb3, type: 3}
+  laserNode: {fileID: 21300000, guid: 7d3a4f10024cd78d0506732cc3ef7881, type: 3}
+  drone:
+  - {fileID: 21300000, guid: 482ba21904df29e66666391d7c655b27, type: 3}
+  - {fileID: 21300000, guid: 20bcd0425c1a39747227f3e9f4bec86b, type: 3}
+  - {fileID: 21300000, guid: 5c50a1d6efa4e1b53208a8339430878e, type: 3}
+  - {fileID: 21300000, guid: 71c8771683b3f8855f6152e71bbd98d7, type: 3}
+  mineOn: {fileID: 21300000, guid: 642aa5b408b61dff90430fb89192e5f1, type: 3}
+  mineOff: {fileID: 21300000, guid: 4c15404f3cf75ae80009a076d7722014, type: 3}
+  warn: {fileID: 21300000, guid: 816a95e3c09f1100f15e9b6392455fcb, type: 3}
+  civ:
+  - {fileID: 21300000, guid: a819aa642a838550bd90373f72d867a6, type: 3}
+  - {fileID: 21300000, guid: 0711a3df6c21062fbed7bb18f9d08071, type: 3}
+  - {fileID: 21300000, guid: 1a2954e72f27b759d14619717cc68fd1, type: 3}
+  - {fileID: 21300000, guid: 96523e74b45f4542f3800d52ba32e92a, type: 3}
+  civGlow: {fileID: 21300000, guid: 4f3665dde706295f3eb91b321a504334, type: 3}
+  civRing: {fileID: 21300000, guid: c45b29e53734689183dd9eb9241e1ea3, type: 3}
+  wallTile: {fileID: 21300000, guid: fb4d966bda441f54363afeef493978f6, type: 3}
+  cityFar: {fileID: 21300000, guid: f328a7295bbfc9b56f180d0b0ac1bb95, type: 3}
+  fadeTop: {fileID: 21300000, guid: dcd10170a550ff4f6427709a3a09bc96, type: 3}
+  glowBottom: {fileID: 21300000, guid: ba80759267d45f541fe9714b16433839, type: 3}
+  dot: {fileID: 21300000, guid: 0af923f9593fd01d9b63a66feb17c5a9, type: 3}
+  pixel: {fileID: 21300000, guid: 9022b2b36a69b6f7a755acd6de623c9b, type: 3}
+  rain: {fileID: 21300000, guid: 598e6156066ac4f205b4fe1dd0a36565, type: 3}
